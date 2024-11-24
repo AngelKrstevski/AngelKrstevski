@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    width: 100%;
+    height: 300px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    width: 20%;
+    height: 100%;
+    border-right: 2px solid black;
+    background-color: aqua;
+}
+
+.content {
+    width: 80%;
+    height: 100%;
+    background-color: chocolate;
+}
+
+@media screen and (max-width:800px) {
+    .parent {
+        width: 100%;
+        height: 300px;
+        background-color: antiquewhite;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu {
+        width: 100%;
+        height: 100%;
+        background-color: aqua;
+        border: none;
+    }
+
+    .content {
+        width: 100%;
+        height: 100%;
+        background-color: chocolate;
+    }
+
+}
