@@ -1,0 +1,15 @@
+.h1_color{
+    color: rgb(19, 158, 173);
+}
+
+.h1_color2{
+    color: rgba(100, 100, 100, 50%);
+}
+
+.h2_color{
+    color: #3B1E54;
+}
+
+.h3_color {
+    color: hsl(61, 89%, 0%);
+}

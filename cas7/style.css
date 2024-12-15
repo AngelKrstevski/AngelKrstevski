@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.side_left {
+    width: 50%;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.side_left i {
+    color: #1877F2;
+    font-size: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.side_left i:hover {
+    color: rgb(255, 83, 10);
+    transition: 1s ease-in;
+}
+
+.side_right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.side_right a {
+    text-decoration: none;
+    color: chocolate;
+    font-size: 25px;
+    font-family: Lacquer,sans-serif;
+    font-weight: bold;
+    transition: 1s all;
+}
+
+.side_right a:hover {
+    font-size: 30px;
+    color: rgb(156, 72, 12);
+    transition: 1s all;
+}

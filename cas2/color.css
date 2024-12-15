@@ -1,0 +1,12 @@
+.h1_color {
+    color: brown;
+}
+
+.p_color {
+    color: royalblue;
+}
+
+.bq_color {
+    background-color: chartreuse;
+    color: darkgreen;
+}

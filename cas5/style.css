@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+@font-face {
+    font-family: 'Ga Maamli';
+    src: url(./assets/fonts/GaMaamli-Regular.ttf);
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: monospace;
+}
+
+.red_back {
+    background-color: red;
+    font-family: Doto, sans-serif;
+    text-transform: capitalize;
+    text-decoration: underline wheat;
+    text-align: justify;
+}
+
+.green_back {
+    background-color: green;
+    font-family: 'Bebas Neue',sans-serif;
+    font-style: italic;
+}
+
+.gray_back {
+    background-color: gray;
+    font-family: 'Ga Maamli',sans-serif;
+}

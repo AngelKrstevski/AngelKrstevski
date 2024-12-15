@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.red {  
+    width: 90%;
+    height: 550px;
+    background-color: red;
+    text-align: center;
+}
+
+@media screen and (max-width:800px) {
+    .red {  
+        width: 90%;
+        height: 1500px;
+        background-color: blue;
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (min-width:1200px){
+    .red {  
+        width: 90%;
+        height: 1500px;
+        background-color: blue;
+        text-align: center;
+    }
+}
+

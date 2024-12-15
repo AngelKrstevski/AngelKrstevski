@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="submit" method="get">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">
+
+        <br><br>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+
+        <br><br>
+
+        <label for="comments">Write a comment</label>
+        <textarea name="comments" id="comments" cols="10" rows="4"></textarea>
+
+        <br><br>
+
+        <p>Are you male or female?</p>
+        <input type="radio" name="pol" id="pol" value="pol">
+        <label for="pol">Male</label>
+        <input type="radio" name="pol" id="pol" value="pol">
+        <label for="pol">Female</label>
+
+        <br><br>
+
+        <p>Favorite music</p>
+        <input type="checkbox" name="music" value="hipHop" id="hipHop">
+        <label for="hipHop">HipHop</label>
+        <br>
+        <input type="checkbox" name="music" value="rock" id="rock">
+        <label for="rock">Rock</label>
+        <br>
+        <input type="checkbox" name="music" value="Folk" id="Folk">
+        <label for="Folk">Folk</label>
+
+        <br><br>
+
+        <label for="device">What device do you use?</label>
+        <select name="device" id="device">
+            <option value="iphone">Please select</option>
+            <option value="samsung" disabled>Samsung</option>
+            <option value="google_pixel">Google Pixel</option>
+        </select>
+
+        <br><br>
+
+        <label for="instruments">Do you have any instrument?</label>
+        <select name="instruments" id="instruments" size="2" multiple="multiple">
+            <option value="guitar">Guitar</option>
+            <option value="drums">Drums</option>
+            <option value="guitar">Guitar</option>
+            <option value="drums">Drums</option>
+        </select>
+
+        <br><br>
+
+        <label for="code">Upload your code on GitHub</label>
+        <input type="file" name="code" id="code">
+
+        <br><br>
+
+        <label for="email">Send to email</label>
+        <input type="text" name="email" id="email">
+
+        <br><br>
+
+        <input type="submit" value="Submit the form">
+        <input type="reset" name="reset" id="reset">
+
+        <fieldset>
+            <legend>Cotact info</legend>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Enter your email">
+
+            <br>
+
+            <label for="mobile">Mobile phone</label>
+            <input type="text" name="mobile" id="mobile" placeholder="Enter your mobile phone">
+        </fieldset>
+
+        <br>
+
+        <input type="date">
+
+    </form>
+</body>
+
+</html>

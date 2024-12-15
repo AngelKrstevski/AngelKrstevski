@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #FEE715;
+    background-color: #101820;
+    text-decoration: none;
+    font-size: 35px;
+    border: solid 3px goldenrod;
+    border-radius: 10px;
+}
+
+a:visited {
+    background-color: #21272d;
+
+}
+
+a:hover {
+    color: #F96167;
+    background-color: #F9E795;
+}
+
+a:active {
+    color: black;
+}
