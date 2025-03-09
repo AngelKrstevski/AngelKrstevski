@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap');
+
+body {
+    background-color: wheat;
+}
+
+.todoDiv {
+    background-color: rgb(216, 134, 20);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    margin-left: 80px;
+    border-radius: 20px;
+}
+
+.formTodo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1 {
+    font-family: "Emblema One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(50, 32, 7);
+}
+
+#todo-input {
+    background-color: rgb(50, 32, 7);
+    color: rgb(216, 134, 20);
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#todo-input::placeholder {
+    color: rgb(216, 134, 20);
+}
+
+#add-btn {
+    background-color: rgb(50, 32, 7);
+    color: rgb(216, 134, 20);
+    font-family: "Emblema One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#todo-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; /* Removes default bullet points */
+}
+
+li {
+    display: flex;
+    align-items: center; /* Aligns checkbox and text in one line */
+    gap: 5px; /* Reduces space between checkbox and text */
+    color: rgb(50, 32, 7);
+    padding: 0;
+    margin-left: 120px;
+}
+
+li::before {
+    content: "•"; /* Manually add the bullet */
+    color: rgb(50, 32, 7); /* Match your text color */
+    margin-right: 5px; /* Adjust spacing as needed */
+}

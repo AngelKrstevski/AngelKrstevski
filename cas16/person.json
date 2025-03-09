@@ -1,0 +1,11 @@
+{
+    "firstName": "Angel",
+    "lastName": "Krstevski",
+    "age": 17,
+    "isWeringGlasses": true,
+    "progragraminLanguages": [
+        "JS",
+        "C#",
+        "Python"
+    ]
+}
